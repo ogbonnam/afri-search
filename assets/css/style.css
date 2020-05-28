@@ -1,4 +1,4 @@
-*****************************************/
+/*****************************************/
 /* Author: Ogbonna Martins;                /                        /
 /* Author Lik: www.wpexplode.com;          /                              /
 /*                                         /
@@ -16,14 +16,15 @@ body{
 }
 .center-link li{
    display: inline-block;
-   margin: 35px;
+   margin-top: 23px;
+   margin-right: 35px;
 }
 .center-link li a{
    text-decoration: none;
    font-family: 'Barlow', sans-serif;
    color: #333333;
    line-height: 24px;
-   font-weight: 500;
+   font-weight: 700;
    font-size: 16px;
 }
 .right-link{
@@ -31,18 +32,18 @@ body{
 }
 
 .login{
-    padding: 15px 40px;
+    padding: 10px 40px;
 	border: solid 1px red;
-	margin-top: 17px;
-	margin-bottom: 17px;
+	margin-top: 10px;
+	margin-bottom: 0px;
 	color: red!important;
 }
 
 .register{
-	padding: 15px 40px;
+	padding: 10px 40px;
 	background-color: #FB246A;
-	margin-top: 17px;
-	margin-bottom: 17px;
+	margin-top: 10px;
+	margin-bottom: 0px;
 	margin-right: 5px;
 	color: white!important;
 }
