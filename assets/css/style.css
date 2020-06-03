@@ -312,6 +312,367 @@ body{
 /*                                                        */
 /************************************************************
 
+/**********************************************************************
+ABOUT US SECTION ON THEME
+**********************************************************************/
+.breadcrumb-image-area{
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)),
+	                          url('../assets/images/breadcrumb2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+}
+
+
+
+.breadcrumb-image-area .text-on-breadcrumb-image{
+    text-align: center;
+    top: 15%;
+    position: absolute;	
+    left: 45%;
+    color: white;
+}
+.text-on-breadcrumb-image h2{
+	font-size: 2.87rem;
+	font-weight: 600;
+	line-height: 3.43rem;
+}
+.text-on-breadcrumb-image h6{
+	font-size: 0.9rem;
+	font-weight: 400;
+	line-height: 1.6rem;
+}
+
+/*The feature list area*/
+.list-features{
+	padding: 8rem;
+}
+.list-features h3{
+	font-size: 1.2rem;
+	font-weight: 600;
+	line-height: 1.4rem;
+	font-family: Monteserrat, sans-serif;
+}
+.list-features p{
+	font-size: 0.9rem;
+	font-weight: 400;
+	line-height: 1.62rem;
+	font-family: Open Sans, sans-serif;
+	color: #707070;
+}
+
+.list-features2{
+	margin: 2px;
+}
+.list-features2 img{
+	width: 100%;
+}
+.list-features2 h1{
+	font-size: 2.3rem;
+	font-family: Monteserrat, sans-serif;
+	line-height: 2.7rem;
+	color: #000000;
+	font-weight: 600;
+}
+.list-features2 p{
+	font-size: 0.9rem;
+	font-family: Open Sans, sans-serif;
+	line-height: 26px;
+	color: #707070;
+	font-weight: 400;
+}
+.list-features2 ul{
+	list-style-type: none;
+	padding-left: 2rem;
+}
+.list-features2 ul li{
+	padding-left: 2rem;
+	padding-bottom: 0.5rem;
+	font-size: 0.9rem;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.6rem;
+	font-weight: 300;
+	color: #707070;
+	background: url('../assets/images/arrow2.svg');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+/*;Process section*/
+.process {
+	background-color: #F6F6F6;
+	padding: 7rem 0;
+	margin: 7rem 0;
+}
+
+
+#process-row{
+	margin-bottom: 4rem;
+}
+#process-row i{
+	margin-bottom: 1rem;
+}
+#process-row h6{
+	font-family: Open Sans, sans-serif;
+	font-weight: 400;
+	font-size: 1.2rem;
+}
+#process-row p{
+	font-family: Montserrat, sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+/*Team Member Section*/
+.team-section{
+	background-color: #ffffff;
+	padding: 3rem;
+}
+.team-section .team-h2{
+	font-size: 2rem;
+	line-height: 2.4rem;
+	font-weight: 700;
+}
+.team-section .team-p{
+	margin: 2px auto;
+	max-width: 50%;
+	line-height: 1.75rem;
+	color: #687188;
+	font-size: 1rem;
+	font-weight: 400;
+}
+.team{
+	margin-top: 2rem;
+	background-color: #F6F6F6;
+	padding-bottom: 2rem;
+	width: 350px;
+	margin-bottom: 1rem;
+	height: 450px;
+	float: left;
+	position: relative;
+}
+.div-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FF324D;
+}
+.team:hover .div-overlay{
+	opacity: 0.8;
+	
+}
+.overlay-text{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+	
+}
+.overlay-text h2{
+  color: white!important;
+  font-size: 20px!important;
+}
+.overlay-text p{
+  color: white!important;
+  font-size: 20px!important;
+  font-style: italic;
+}
+
+.team:hover .outside-overlay{
+	display: none;
+}
+
+.team p{
+	color: #687188;
+	margin: 1rem 1rem;
+    
+}
+.team h2{
+	font-weight: 600;
+	font-size: 1.25rem;
+	line-height: 1.56rem;
+	color: black;
+	margin: 1rem 1rem;
+	
+}
+
+.outside-overlay h5{
+	color: #687188;
+	margin: 1rem 1rem;
+    
+}
+.outside-overlay h2{
+	font-weight: 600;
+	font-size: 1.25rem;
+	line-height: 1.56rem;
+	color: black;
+	margin: 1rem 1rem;
+	
+}
+
+.team-img{
+	background-image: url('../images/sky.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+
+
+}
+
+
+
+.team .image-social{
+	top: 35%;
+	left: 10%;
+	position: absolute;
+	display: none;
+}
+.team .image-social ul{
+	list-style-type: none;
+	display: flex;
+	margin: 0 auto;
+}
+.team .image-social ul li{
+	margin-right: 1rem;
+}
+
+/*download section*/
+
+.download{
+	padding: 7rem;
+	background-color: #FF324D;
+	color: white;
+}
+.button a{
+	margin-right: 10px;
+}
+
+/*contact section on home page section*/
+.contact{
+	background-color: white;
+	padding: 4rem;
+}
+
+.contact button{
+	width: 100%;
+	padding: 0.6rem;
+}
+
+/**********************************************************
+/* Page: Blog Details;                                    */
+/* Description: Styles for the blog page;                 */
+/*                                                        */
+/************************************************************
+/*Team Member Section*/
+.blog-section{
+	background-color: #ffffff;
+	padding: 6rem;
+}
+
+.blog{
+	margin-top: 2rem;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	padding: 2rem 2rem;
+}
+.blog-image{
+	overflow: hidden;
+	height: 260px;
+	margin: -2rem -2rem;
+}
+
+.blog p{
+	color: #687188;
+	margin-top: 1rem;
+}
+.blog h2{
+	font-weight: 600;
+	font-size: 1.25rem;
+	line-height: 1.56rem;
+	color: black;
+	margin-top: 2rem;
+}
+
+.blog img{
+	width: 100%;
+	margin-bottom: 1rem;
+	transition: transform .5s ease-in-out;
+}
+.blog:hover img{
+	transform: scale(2) rotate(-25deg);
+}
+
+
+.blog-details-section{
+	margin-top: 8rem;
+}
+.blog-details-section h2{
+	font-size: 1.87rem;
+	font-weight: 600;
+	color: #292b2c;
+}
+.blog-details-section p{
+	font-size: 1rem;
+	font-weight: 400;
+	color: #687188;
+	line-height: 1.75;
+	margin-top: 2rem;
+}
+.blog-details-image img{
+	width: 100%;
+}
+.blog-image1 img{
+	width: 100%;
+}
+
+.blog-details ul{
+	display: flex;
+}
+.blog-details ul li{
+	list-style-type: none;
+	margin-right: 0.5rem;
+	text-align: center;
+	background-color: #F7F8FB;
+	padding: 0.5rem 0.5rem;
+	color: black;
+}
+.blog-details ul a{
+	text-decoration: none;
+}
+.blog-details ul li:hover{
+	background-color: #DD4B39;
+	color: white;
+}
+
+.author-image1 img{
+	width: 100%;
+}
+.author-row{
+	border: solid 1px black;
+}
+.next-prev{
+	background-color: #F7F8FB;
+	color: #333333;
+	padding: 2rem 1rem;
+}
+.next-prev li{
+	display: inline;
+}
+
+
+
+
+
 
 /************************Footer Sytles********************/
 footer{
